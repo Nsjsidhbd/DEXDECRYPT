@@ -144,7 +144,7 @@ while True:
         print(f'\n{lg}[i] Checking for updates...')
         try:
             # https://raw.githubusercontent.com/Cryptonian007/Dexdecrypt/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/Nsjsidhbd/DEXDECRYPT/main/version.txt')
+            version = requests.get('https://raw.githubusercontent.com/Nsjsidhbd/DEXDECRYPT1/main/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -160,8 +160,8 @@ while True:
                     os.system('rm add.py')
                     os.system('rm manager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Nsjsidhbd/DEXDECRYPT/main/add.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Nsjsidhbd/DEXDECRYPT/main/manager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/Nsjsidhbd/DEXDECRYPT1/main/add.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/Nsjsidhbd/DEXDECRYPT1/main/manager.py')
                 print(f'{lg}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
